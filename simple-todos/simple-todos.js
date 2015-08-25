@@ -64,6 +64,9 @@ if (Meteor.isClient) {
   });
 }
 
+
+
+
 Meteor.methods({
   addTask: function (text) {
     // Make sure the user is logged in before inserting a task
